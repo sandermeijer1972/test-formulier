@@ -16,6 +16,10 @@
     </nav>  
     <h1>CONTACT pagina</h1>
     <form action="https://formsubmit.co/d207706da69d2e5af926c3ecfff61e12" method="POST">
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+        <!-- Disable captcha -->
+        <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Uw naam" required>
         <input type="email" name="email" placeholder="Uw email" required>
         <textarea name="bericht" placeholder="Uw bericht" cols="30" rows="10"></textarea>
