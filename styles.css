@@ -27,8 +27,7 @@ nav {
 }
 
 .menu:hover {
-    color: black;
-    background-color: lightblue;
+    color: red;
 }
 
 .active {
@@ -103,6 +102,10 @@ form button:hover {
     }
     .menu {
         width: auto;
+    }
+    .menu:hover {
+        color: black;
+        background-color: lightblue;
     }
     .active {
         background-color: red;
