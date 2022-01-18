@@ -127,7 +127,7 @@ section {
     margin-bottom: 10px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
     nav {
         background-color: blue;
         display: flex;
